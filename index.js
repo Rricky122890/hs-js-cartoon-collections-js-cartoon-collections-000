@@ -1,4 +1,5 @@
 function dwarfRollCall(dwarves) {
+// <<<<<<< HEAD
 var i = 0;
  var line = [];  
  
@@ -10,12 +11,17 @@ line.push( parseInt(i + 1)  + `. `  +  dwarves[i]+ " ");
   } 
  
  return line.join(""); 
+// =======
+  
+// >>>>>>> 63f1a66236354e79471db5aa7ea7219a55db1117
 }
 
 function summonCaptainPlanet(planeteerCalls){
   var newCall = [];
 
+// <<<<<<< HEAD
 for (var i=0; i < planeteerCalls.length; i++) {
+
 
 newCall.push(planeteerCalls[i].toUpperCase() +"!" );  
 
